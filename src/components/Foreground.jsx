@@ -46,7 +46,7 @@ const Foreground = () => {
   return (
     <div>
       {/* Add Note Button */}
-      <div className='fixed top-4 left-4 z-[4]'>
+      <div className='fixed top-4 right-4 z-[4]'>
         <button
           onClick={handleAddNote}
           className='px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-500 active:scale-95 transition'
